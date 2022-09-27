@@ -2,6 +2,8 @@ IMPORTANTE!!!
 librerias necesarias:
 pandas, imagetk, tkinter, numpy, random, image, openpyxl
 
+de modificar el archivo EXCEL, conservar el MISMO NOMBRE: "Base2_Gabo.xlsx"
+
 # para windows (las que no estan ya estan instaladas por default, en teoria)
 pip install pandas (version 1.2 o superior)
 pip install openpyxl (engine para leer xlsx con pandas)
