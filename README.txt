@@ -1,3 +1,5 @@
+by LabSI - Eduardo Carrera
+
 IMPORTANTE!!!
 librerias necesarias:
 pandas, imagetk, tkinter, numpy, random, image, openpyxl
