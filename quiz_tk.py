@@ -1,3 +1,5 @@
+# by LabSI - Eduardo Carrera
+
 #librerias del gui
 from cProfile import label
 import tkinter as tk
