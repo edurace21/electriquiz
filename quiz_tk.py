@@ -1,4 +1,5 @@
 #librerias del gui
+from cProfile import label
 import tkinter as tk
 from PIL import Image, ImageTk
 #librerias para algoritmos
@@ -146,6 +147,11 @@ def begin_callback():
     home_button = tk.Button(frame1, image=home_photo, bg="#fcfcfc", 
                             command=home_callback, borderwidth=0)
     home_button.place(relx=0.95, rely=0.5, anchor='center')
+    # label LabSI
+    global labsi
+    labsi = tk.Label(frame1, text='By LabSI©', font=("Helvetica",'12', 'bold'),
+                     bg="#fcfcfc", fg="#03061a")
+    labsi.place(relx=0.05, rely=0.5, anchor='center')
     
     #config-frame2
     frame2 = tk.Frame(root, height=root.winfo_height(), width=root.winfo_width(),
